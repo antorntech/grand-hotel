@@ -6,7 +6,7 @@ import CustomLink from "../CustomLink/CustomLink";
 
 const Header = () => {
   return (
-    <div className="container-fluid box-shadow">
+    <div className="container-fluid box-shadow py-2">
       <div className="container d-flex justify-content-between align-items-center">
         <div className="logo">
           <img src={logo} alt="" />

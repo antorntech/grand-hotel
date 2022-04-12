@@ -1,0 +1,51 @@
+import React from "react";
+import { Button, Form } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import logo from "../../images/logo-black.png";
+import "./Footer.css";
+
+const Footer = () => {
+  return (
+    <div className="container-fluid footer">
+      <div className="row row-cols-1 row-cols-lg-3 p-2 p-lg-4">
+        <div className="col">
+          <div className="footer-left">
+            <img src={logo} alt="" />
+            <p className="text-justify">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor,
+              laboriosam ut natus laudantium corporis, earum repellendus rem
+              molestias cumque excepturi reprehenderit!
+            </p>
+          </div>
+        </div>
+        <div className="col">
+          <h3>Link</h3>
+          <nav className="mt-5">
+            <Link to="/home">Home</Link>
+            <Link to="/rooms">Rooms</Link>
+            <Link to="/blog">Blog</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
+            <Link to="/login">Login</Link>
+          </nav>
+        </div>
+        <div className="col text-start">
+          <h3 className="pb-3">Contact</h3>
+          <Form>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Control type="email" placeholder="Enter email" />
+              <Form.Text className="text-muted">
+                We'll never share your email with anyone else.
+              </Form.Text>
+            </Form.Group>
+            <Button className="submit-btn" variant="primary" type="submit">
+              Submit
+            </Button>
+          </Form>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;

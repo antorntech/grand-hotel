@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "picture": "https://a6e8z9v6.stackpathcdn.com/hotelmaster/wp-content/uploads/2015/03/photodune-2676493-suite-bed-room-with-balcony-of-a-luxury-resort-m-700x400.jpg",
+    "name": "STANDARD ROOM - ONE KING BED"
+  },
+  {
+    "id": "2",
+    "picture": "https://a6e8z9v6.stackpathcdn.com/hotelmaster/wp-content/uploads/2015/03/photodune-3973259-hotel-room-m-700x400.jpg",
+    "name": "SUPERIOR ROOM - TWO DOUBLE BEDS"
+  },
+  {
+    "id": "3",
+    "picture": "https://a6e8z9v6.stackpathcdn.com/hotelmaster/wp-content/uploads/2015/03/photodune-2681114-penthouse-room-on-a-sunny-day-m-700x400.jpg",
+    "name": "JUNIOR SUITE - ONE SINGLE BED"
+  },
+  {
+    "id": "4",
+    "picture": "https://a6e8z9v6.stackpathcdn.com/hotelmaster/wp-content/uploads/2015/03/photodune-3973289-hotel-room-m-700x400.jpg",
+    "name": "GRAND SUPERIOR ROOM - TWO KING BEDS"
+  },
+  {
+    "id": "5",
+    "picture": "https://a6e8z9v6.stackpathcdn.com/hotelmaster/wp-content/uploads/2015/03/photodune-2232283-hotel-room-with-bed-and-wooden-m-700x400.jpg",
+    "name": "SUPERIOR ROOM - ONE KING BED"
+  },
+  {
+    "id": "6",
+    "picture": "https://a6e8z9v6.stackpathcdn.com/hotelmaster/wp-content/uploads/2015/03/photodune-4076311-interior-of-modern-comfortable-hotel-room-m-700x400.jpg",
+    "name": "DELUXE ROOM - ONE KING BED"
+  },
+  {
+    "id": "7",
+    "picture": "https://a6e8z9v6.stackpathcdn.com/hotelmaster/wp-content/uploads/2015/03/photodune-3973259-hotel-room-m-700x400.jpg",
+    "name": "FAMILY SPECIAL - THREE DOUBLE BEDS"
+  },
+  {
+    "id": "8",
+    "picture": "https://a6e8z9v6.stackpathcdn.com/hotelmaster/wp-content/uploads/2015/03/photodune-3973289-hotel-room-m-700x400.jpg",
+    "name": "PREMIUM ROOM - TWO SINGLE BEDS"
+  },
+  {
+    "id": "9",
+    "picture": "https://a6e8z9v6.stackpathcdn.com/hotelmaster/wp-content/uploads/2015/03/photodune-3973289-hotel-room-m-700x400.jpg",
+    "name": "DELUXE ROOM - TWO DOUBLE BEDS"
+  }
+]

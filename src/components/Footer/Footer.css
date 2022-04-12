@@ -1,0 +1,26 @@
+.footer {
+  background-color: black;
+  color: rgb(154, 162, 168);
+}
+
+nav a {
+  color: rgb(154, 162, 168);
+  text-decoration: none;
+  padding: 10px 8px;
+  transition: 0.5s;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+.submit-btn {
+  border: none;
+  background-color: orange;
+  color: aliceblue;
+  transition: 0.5s;
+}
+
+.submit-btn:hover {
+  background-color: rgb(255, 136, 0);
+}
