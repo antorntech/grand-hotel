@@ -1,0 +1,14 @@
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.menu nav a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.menu nav a:hover {
+  color: orange;
+}
