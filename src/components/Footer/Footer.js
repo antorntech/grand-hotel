@@ -19,8 +19,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="col">
-          <h3>Link</h3>
-          <nav className="mt-5">
+          <h3 className="text-start text-lg-center">Link</h3>
+          <nav className="mt-lg-5 mb-2 mb-lg-0">
             <Link to="/home">Home</Link>
             <Link to="/rooms">Rooms</Link>
             <Link to="/blog">Blog</Link>
