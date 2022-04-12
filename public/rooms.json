@@ -1,46 +1,91 @@
 [
   {
     "id": "1",
+    "bed": "2 Double Beds",
+    "maxPeople": "5",
+    "view": "Beach",
+    "wifi": "Yes",
+    "price": "$280 / Night",
     "picture": "https://a6e8z9v6.stackpathcdn.com/hotelmaster/wp-content/uploads/2015/03/photodune-2676493-suite-bed-room-with-balcony-of-a-luxury-resort-m-700x400.jpg",
     "name": "STANDARD ROOM - ONE KING BED"
   },
   {
     "id": "2",
+    "bed": "2 Single Beds",
+    "maxPeople": "3",
+    "view": "City",
+    "wifi": "Yes",
+    "price": "$430 / Night",
     "picture": "https://a6e8z9v6.stackpathcdn.com/hotelmaster/wp-content/uploads/2015/03/photodune-3973259-hotel-room-m-700x400.jpg",
     "name": "SUPERIOR ROOM - TWO DOUBLE BEDS"
   },
   {
     "id": "3",
+    "bed": "3 Double Beds",
+    "maxPeople": "7",
+    "view": "Beach",
+    "wifi": "Yes",
+    "price": "$282 / Night",
     "picture": "https://a6e8z9v6.stackpathcdn.com/hotelmaster/wp-content/uploads/2015/03/photodune-2681114-penthouse-room-on-a-sunny-day-m-700x400.jpg",
     "name": "JUNIOR SUITE - ONE SINGLE BED"
   },
   {
     "id": "4",
+    "bed": "1 King Bed",
+    "maxPeople": "3",
+    "view": "City",
+    "wifi": "Yes",
+    "price": "$382 / Night",
     "picture": "https://a6e8z9v6.stackpathcdn.com/hotelmaster/wp-content/uploads/2015/03/photodune-3973289-hotel-room-m-700x400.jpg",
     "name": "GRAND SUPERIOR ROOM - TWO KING BEDS"
   },
   {
     "id": "5",
+    "bed": "2 Double Beds",
+    "maxPeople": "4",
+    "view": "City",
+    "wifi": "Yes",
+    "price": "$368 / Night",
     "picture": "https://a6e8z9v6.stackpathcdn.com/hotelmaster/wp-content/uploads/2015/03/photodune-2232283-hotel-room-with-bed-and-wooden-m-700x400.jpg",
     "name": "SUPERIOR ROOM - ONE KING BED"
   },
   {
     "id": "6",
+    "bed": "1 Single Bed",
+    "maxPeople": "2",
+    "view": "City",
+    "wifi": "Yes",
+    "price": "$393 / Night",
     "picture": "https://a6e8z9v6.stackpathcdn.com/hotelmaster/wp-content/uploads/2015/03/photodune-4076311-interior-of-modern-comfortable-hotel-room-m-700x400.jpg",
     "name": "DELUXE ROOM - ONE KING BED"
   },
   {
     "id": "7",
+    "bed": "2 King Beds",
+    "maxPeople": "4",
+    "view": "Beach",
+    "wifi": "Yes",
+    "price": "$261 / Night",
     "picture": "https://a6e8z9v6.stackpathcdn.com/hotelmaster/wp-content/uploads/2015/03/photodune-3973259-hotel-room-m-700x400.jpg",
     "name": "FAMILY SPECIAL - THREE DOUBLE BEDS"
   },
   {
     "id": "8",
+    "bed": "1 King Bed",
+    "maxPeople": "3",
+    "view": "Beach",
+    "wifi": "Yes",
+    "price": "$255 / Night",
     "picture": "https://a6e8z9v6.stackpathcdn.com/hotelmaster/wp-content/uploads/2015/03/photodune-3973289-hotel-room-m-700x400.jpg",
     "name": "PREMIUM ROOM - TWO SINGLE BEDS"
   },
   {
     "id": "9",
+    "bed": "1 King Bed",
+    "maxPeople": "3",
+    "view": "Forest",
+    "wifi": "Yes",
+    "price": "$331 / Night",
     "picture": "https://a6e8z9v6.stackpathcdn.com/hotelmaster/wp-content/uploads/2015/03/photodune-3973289-hotel-room-m-700x400.jpg",
     "name": "DELUXE ROOM - TWO DOUBLE BEDS"
   }

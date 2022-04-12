@@ -1,0 +1,27 @@
+.card-list {
+  text-align: left;
+}
+
+.card-list ul li {
+  list-style: none;
+  line-height: 30px;
+}
+
+.card-list ul li i {
+  margin-right: 10px;
+}
+.details-btn {
+  padding: 25px 108px;
+  color: aliceblue;
+  background-color: #7e6648;
+}
+
+.details-btn:hover {
+  color: aliceblue;
+}
+
+@media screen and (max-width: 992px) {
+  .details-btn {
+    padding: 25px 140px;
+  }
+}
