@@ -87,6 +87,11 @@ const MainRoom = (props) => {
             </li>
           </ul>
         </div>
+        <div className="room-price text-start py-3">
+          <h5>
+            Start From: <span style={{ color: "#74B7D3" }}>{price}</span>
+          </h5>
+        </div>
         <Link className="text-start pb-4 details-btn" to="#">
           <span className="text-start">
             Check details <i class="fa-solid fa-arrow-right-long"></i>

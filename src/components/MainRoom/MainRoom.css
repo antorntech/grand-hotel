@@ -20,6 +20,10 @@
   color: aliceblue;
 }
 
+.room-price {
+  padding-left: 33px;
+}
+
 @media screen and (max-width: 992px) {
   .details-btn {
     padding: 25px 140px;
