@@ -1,0 +1,19 @@
+.create-account-text a {
+  color: #7e6648;
+  text-decoration: underline;
+}
+
+.create-account-text a:hover {
+  color: #9aa2a8;
+}
+
+.login-btn {
+  background-color: #7e6648;
+  color: aliceblue;
+  border: none;
+  padding: 8px 30px;
+}
+
+.login-btn:hover {
+  background-color: #a0723a;
+}

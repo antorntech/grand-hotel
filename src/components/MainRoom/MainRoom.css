@@ -11,13 +11,15 @@
   margin-right: 10px;
 }
 .details-btn {
-  padding: 25px 108px;
+  padding: 25px 125px;
   color: aliceblue;
+  font-size: 15px;
   background-color: #7e6648;
 }
 
 .details-btn:hover {
   color: aliceblue;
+  background-color: #7e5c48;
 }
 
 .room-price {
@@ -26,6 +28,6 @@
 
 @media screen and (max-width: 992px) {
   .details-btn {
-    padding: 25px 140px;
+    padding: 25px 150px;
   }
 }
