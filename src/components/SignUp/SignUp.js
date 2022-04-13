@@ -1,9 +1,38 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Button, Form } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import "./SignUp.css";
+import { Link, useNavigate } from "react-router-dom";
 import SignUpImg from "../../images/signin-up/signup-image.jpg";
+import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
+import auth from "../../firebase.init";
 
 const SignUp = () => {
+  const [createUserWithEmailAndPassword, user, loading, error] =
+    useCreateUserWithEmailAndPassword(auth);
+  const emailRef = useRef("");
+  const passwordRef = useRef("");
+  const confirmPasswordRef = useRef("");
+
+  const navigate = useNavigate();
+
+  if (user) {
+    navigate("/home");
+  }
+
+  const handleSubmitForm = (event) => {
+    const email = emailRef.current.value;
+    const password = passwordRef.current.value;
+    const confirmPassword = confirmPasswordRef.current.value;
+
+    if (password !== confirmPassword) {
+      document.getElementById("error").style.display = "block";
+    } else {
+      createUserWithEmailAndPassword(email, password);
+    }
+
+    event.preventDefault();
+  };
+
   return (
     <div className="container my-3 my-lg-5">
       <div className="row row-cols-1 row-cols-lg-2">
@@ -21,25 +50,40 @@ const SignUp = () => {
               Sign- <span style={{ color: "#a0723a" }}>Up</span>
             </h2>
           </header>
-          <Form>
+          <Form onSubmit={handleSubmitForm}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" placeholder="Enter email" />
+              <Form.Control
+                ref={emailRef}
+                type="email"
+                placeholder="Enter email"
+              />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicPassword">
               <Form.Label>Password</Form.Label>
-              <Form.Control type="password" placeholder="Password" />
+              <Form.Control
+                ref={passwordRef}
+                type="password"
+                placeholder="Password"
+              />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formConfirmPassword">
               <Form.Label>Confirm Password</Form.Label>
-              <Form.Control type="password" placeholder="Confirm Password" />
+              <Form.Control
+                ref={confirmPasswordRef}
+                type="password"
+                placeholder="Confirm Password"
+              />
             </Form.Group>
+            <p id="error" style={{ color: "red", display: "none" }}>
+              Password don't match.
+            </p>
             <Form.Group className="mb-3" controlId="formBasicCheckbox">
               <Form.Check type="checkbox" label="I agree all statements" />
             </Form.Group>
-            <Button className="login-btn" type="submit">
+            <Button className="signUp-btn" type="submit">
               Sign Up
             </Button>
           </Form>

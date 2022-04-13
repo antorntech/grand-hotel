@@ -1,0 +1,10 @@
+.signUp-btn {
+  background-color: #7e6648;
+  border: none;
+}
+.signUp-btn:hover {
+  background-color: #7e5e48;
+}
+.signUp-btn:focus {
+  background-color: #7e5e48;
+}
