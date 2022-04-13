@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "./RoomDetail.css";
 import picture from "../../images/room-1.jpg";
 
@@ -27,7 +27,9 @@ const RoomDetail = () => {
             }}
           ></div>
         </div>
-        <div className="col"></div>
+        <div className="col">
+          <Link to="/room_booking">Room Booking</Link>
+        </div>
       </div>
     </div>
   );

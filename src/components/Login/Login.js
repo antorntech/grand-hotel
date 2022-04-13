@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./Login.css";
 import SignInImg from "../../images/signin-up/signin-image.jpg";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Button, Form } from "react-bootstrap";
 import auth from "../../firebase.init";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
@@ -15,8 +15,11 @@ const Login = () => {
 
   const navigate = useNavigate();
 
+  const location = useLocation();
+  let from = location.state?.from?.pathname || "/";
+
   if (user) {
-    navigate("/home");
+    navigate(from, { replace: true });
   }
 
   const handleSubmit = (event) => {
