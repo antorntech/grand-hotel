@@ -19,7 +19,7 @@ const Login = () => {
         <div className="col text-start px-5">
           <header className="mb-3 mb-lg-4">
             <h2>
-              Log- <span style={{ color: "#7e6648" }}>In</span>
+              Log- <span style={{ color: "#a0723a" }}>In</span>
             </h2>
           </header>
           <Form>

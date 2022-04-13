@@ -1,11 +1,13 @@
-a {
+.checkDetails-btn {
   color: rgb(154, 162, 168);
-  padding: 0 15px;
-  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #7e6648;
+  border: none;
 }
 
-a:hover {
-  color: #7e6648;
+.checkDetails-btn:hover {
+  color: #ffffff;
+  background-color: #91724c;
 }
 
 .parent {

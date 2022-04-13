@@ -1,8 +1,9 @@
 .box-shadow {
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  background-color: white;
 }
 
-.menu nav a {
+Nav a {
   text-decoration: none;
   padding: 0 10px;
   color: black;
@@ -10,7 +11,7 @@
   transition: 0.5s;
 }
 
-.menu nav a:hover {
+Nav a:hover {
   color: orange;
 }
 

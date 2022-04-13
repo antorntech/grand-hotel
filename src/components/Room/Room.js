@@ -1,9 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Button } from "react-bootstrap";
+import { Link, useNavigate } from "react-router-dom";
 import "./Room.css";
 
 const Room = (props) => {
   const { id, name, picture } = props.room;
+  const navigate = useNavigate();
+
+  const onRoomDetails = (id) => {
+    navigate(`/rooms/${id}`);
+  };
+
   return (
     <div className="col">
       <div className="card h-100">
@@ -17,10 +24,13 @@ const Room = (props) => {
             {name}
           </h6>
         </div>
-        <Link className="text-start pb-4" to="#">
+        <Button
+          onClick={() => onRoomDetails(id)}
+          className="checkDetails-btn mt-2 mt-lg-3"
+        >
           Check details
           <i class="fa-solid fa-arrow-right-long"></i>
-        </Link>
+        </Button>
       </div>
     </div>
   );

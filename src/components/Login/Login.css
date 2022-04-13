@@ -1,5 +1,5 @@
 .create-account-text a {
-  color: #7e6648;
+  color: #a0723a;
   text-decoration: underline;
 }
 
@@ -8,12 +8,12 @@
 }
 
 .login-btn {
-  background-color: #7e6648;
+  background-color: #a0723a;
   color: aliceblue;
   border: none;
   padding: 8px 30px;
 }
 
 .login-btn:hover {
-  background-color: #a0723a;
+  background-color: #7e6648;
 }

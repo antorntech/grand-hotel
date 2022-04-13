@@ -3,6 +3,10 @@
   color: #9aa2a8;
 }
 
+h3 {
+  font-size: 22px;
+}
+
 nav a {
   color: rgb(154, 162, 168);
   text-decoration: none;

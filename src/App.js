@@ -12,6 +12,7 @@ import Login from "./components/Login/Login";
 import Footer from "./components/Footer/Footer";
 import MainRooms from "./components/MainRooms/MainRooms";
 import SignUp from "./components/SignUp/SignUp";
+import RoomDetail from "./components/RoomDetail/RoomDetail";
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/rooms" element={<MainRooms></MainRooms>}></Route>
+        <Route
+          path="/rooms/:roomsId"
+          element={<RoomDetail></RoomDetail>}
+        ></Route>
         <Route path="/blog" element={<Blog></Blog>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
