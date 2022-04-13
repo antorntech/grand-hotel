@@ -1,0 +1,32 @@
+.reservationForm {
+  border-radius: 5px;
+  background-color: #bea78b;
+  padding-bottom: 50px;
+}
+
+#date {
+  border-radius: 0;
+  color: #757575;
+}
+
+.selectOption {
+  outline: none;
+  border: none;
+  margin-top: 8px;
+  width: 120px;
+  padding: 7px 0;
+  color: #757575;
+}
+
+.selectOption:focus {
+  border: none;
+  outline: none;
+}
+
+#roomBooking {
+  color: #fff;
+  background-color: #977b58;
+  text-decoration: none;
+  padding: 10px 30px;
+  box-shadow: rgba(59, 55, 55, 0.76) 0px 3px 8px;
+}
