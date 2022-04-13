@@ -11,7 +11,8 @@
   margin-right: 10px;
 }
 .details-btn {
-  padding: 25px 120px;
+  padding: 5px 120px;
+  margin-bottom: 0;
   color: aliceblue;
   font-size: 15px;
   background-color: #7e6648;
