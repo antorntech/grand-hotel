@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../../images/logo.png";
 import "./Header.css";
-import { CustomLink } from "../CustomLink/CustomLink";
 import { Button, Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useAuthState } from "react-firebase-hooks/auth";
