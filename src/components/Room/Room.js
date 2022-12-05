@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import "./Room.css";
+import { motion } from "framer-motion"
 
 const Room = (props) => {
   const { id, name, picture } = props.room;
@@ -28,8 +29,10 @@ const Room = (props) => {
           onClick={() => onRoomDetails(id)}
           className="checkDetails-btn mt-2 mt-lg-3"
         >
-          Check details
-          <i class="fa-solid fa-arrow-right-long"></i>
+          <motion.div whileHover={{scale: 1.1}} transition={{duration: .4}} style={{width: '100%'}}>
+            <span>Check details</span>
+            <i class="fa-solid fa-arrow-right-long ms-1"></i>
+          </motion.div>
         </Button>
       </div>
     </div>
